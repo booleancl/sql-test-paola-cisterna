@@ -1,0 +1,10 @@
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/00_create_datbase.sql
+
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/00_create_datbase.sql
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/01_create_customers.sql
+
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/01_create_customers.sql
+
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/02_create_addresses.sql
+
+C:/Users/Acer/intro_dev/sql-test-paola-cisterna/migrations/03_create_pizzas.sql

@@ -1,12 +1,12 @@
 -- Cargar en el orden correcto los datos a las tablas
 -- OOPS NO ESTÁN EN ORDEN CORRECTO
 
-\c pizzas_factory
+/c pizzas_factory
 
-\COPY addresses FROM 'ruta/al/archivo/data/addresses.csv' CSV HEADER
-\COPY customers FROM 'ruta/al/archivo/data/customers.csv' CSV HEADER
-\COPY prices FROM 'ruta/al/archivo/data/prices.csv' CSV HEADER
-\COPY pizzas FROM 'ruta/al/archivo/data/pizzas.csv' CSV HEADER
-\COPY sizes FROM 'ruta/al/archivo/data/sizes.csv' CSV HEADER
-\COPY details FROM 'ruta/al/archivo/data/orders_details.csv' CSV HEADER
-\COPY orders FROM 'ruta/al/archivo/data/orders.csv' CSV HEADER
+/COPY addresses FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/addresses.csv' csv HEADER;
+/COPY customers FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/customers.csv' csv HEADER;
+/COPY prices FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/prices.csv' HEADER;
+/COPY pizzas FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/pizzas.csv' csv HEADER;
+/COPY sizes FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/sizes.csv' csv HEADER;
+/COPY details FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/orders_details.csv' csv HEADER;
+/COPY orders FROM 'C:/Users/Acer/intro_dev/sql-test-paola-cisterna/data/orders.csv' csv HEADER;
